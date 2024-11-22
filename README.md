@@ -3,7 +3,7 @@
 # DocKylin: A Large Multimodal Model for Visual Document Understanding with Efficient Visual Slimming
 </div>
 
-A reimplementation of the key modules APS and DTS in Dockylin. Due to company policy restrictions, the original Dockylin code cannot be open-sourced. This reimplementation is provided here and may have slight differences.
+A reimplementation of the key modules APS and DTS in DocKylin. Due to company policy restrictions, the original DocKylin code cannot be open-sourced. This reimplementation is provided here and may have slight differences.
 
 
 <p align="center">
@@ -52,3 +52,6 @@ Year = {2024}}
 
 ## ⭐ Star Rising
 [![Star Rising](https://api.star-history.com/svg?repos=ZZZHANG-jx/DocKylin&type=Timeline)](https://star-history.com/#ZZZHANG-jx/DocKylin&Timeline)
+
+
+Some codes are based on [TextMonkey](https://github.com/Yuliang-Liu/Monkey) and [TPS](https://github.com/megvii-research/TPS-CVPR2023). Thanks to all the authors for their great work.
