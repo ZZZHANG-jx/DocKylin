@@ -44,9 +44,9 @@ If you are using our code and data, please consider citing our paper.
 ```
 @inproceedings{zhang2024dockylin, 
 Author = {Zhang, Jiaxin and Yang, Wentao and Lai, Songxuan and Xie, Zecheng and Jin, Lianwen}, 
-Booktitle = {arXiv preprint arXiv:2406.19101}, 
+Booktitle = {Proceedings of the AAAI conference on artificial intelligence}, 
 Title = {Dockylin: A large multimodal model for visual document understanding with efficient visual slimming}, 
-Year = {2024}}   
+Year = {2025}}   
 ```
 
 
