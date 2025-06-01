@@ -84,7 +84,7 @@ def ats_visualize(im:torch.Tensor, token_ids):
     std = (0.5, 0.5, 0.5)
     im = im[0].permute(1,2,0).to('cpu').numpy()
     im = ((im*std+mean)*255).astype(np.uint8)
-    im = cv2.cvtColor(im,cv2.COLOR_RGB3BGR)
+    im = cv2.cvtColor(im,cv2.COLOR_RGB2BGR)
     
     token_ids = token_ids.to('cpu').numpy()
     h,w = im.shape[:2]
@@ -101,7 +101,7 @@ def ats_visualize(im:torch.Tensor, token_ids):
     mask = np.tile(mask,(1,1,3))
 
     mask = 1-mask 
-    masked_im = cv2.addWeighted(im,0.5,(mask*(240,176,0)).astype(np.uinit8),0.5,0)
+    masked_im = cv2.addWeighted(im,0.5,(mask*(240,176,0)).astype(np.uint8),0.5,0)
     cv2.imwrite('visualize.jpg',masked_im)
 
 
